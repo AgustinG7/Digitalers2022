@@ -1,0 +1,29 @@
+/* variables */
+/* 
+    selector {
+        --nombre-de-la-variable: valor;
+    }
+
+*/
+
+body {
+    --color-fondo: black; 
+    /* variable para ser usada sólo dentro de #bienvenida */
+    --color-principal:rgb(51, 51, 149);
+    --color-secundario: rgb(84, 180, 20);
+    --color-acento:green;
+
+    --ancho-contenedor: 500px;
+
+    --borde-principal: 5px solid red;
+}
+
+h1 {
+    background-color: var(--color-fondo);
+    border: var(--borde-principal);
+}
+
+section {
+    background-color: var(--color-principal);
+    width: var(--ancho-contenedor);
+}

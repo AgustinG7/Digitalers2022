@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    --color-negro: #07020D;
+    --color-base: #F1E9DB;
+    --color-acento: #5DB7DE;
+    --color-marron-100: #A39B8B;
+    --color-marron-200: #716A5C;
+}
+
+/* Estilos globales */
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    color: var(--color-base);
+    background-color: var(--color-negro);
+    margin: 0;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--color-acento);
+    text-align: center;
+}
+
+/*------------ Flexbox ------------*/
+.contenedor {
+    border: 2px solid var(--color-acento);
+    padding: 16px;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.item {
+    width: 350px;
+    padding: 16px;
+
+    background-color: var(--color-acento);
+
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-negro);
+    text-align: center;
+}
+
+.item-1 {
+    height: 150px;
+}
+
+.item-2 {
+    height: 250px;
+}
+
+.item-3 {
+    height: 350px;
+}

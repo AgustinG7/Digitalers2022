@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Selector universal */
+* {
+    box-sizing: border-box;
+}
+
+/* Variables */
+body {
+    --color-negro: #07020D;
+    --color-fondo: #F1E9DB;
+    --color-acento: #5DB7DE;
+    --color-marron-100: #A39B8B;
+    --color-marron-200: #716A5C;
+
+    --tipografia: 'Montserrat', sans-serif;
+}
+
+/* ---- Estilos generales ---- */
+body {
+    background-color: var(--color-fondo);
+    margin: 0;
+    font-family: var(--tipografia);
+    text-align: center;
+    color: var(--color-negro);
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+h2 {
+    margin: 8px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+h3 {
+    margin: 8px 0;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+/* ---- Header y Barra de Navegación ---- */
+header {
+    background-color: var(--color-negro);
+    border-bottom: 4px solid var(--color-acento); /* Grosor Estilo Color */
+    padding: 32px;
+}
+
+.lista-header {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-header {
+    display: inline;
+}
+
+/* Links de la barra de navegación */
+/* Reposo */
+a.nav:link {
+    text-decoration: none;
+    color: var(--color-fondo);
+    margin: 0 16px;
+}
+
+/* Visitado */
+a.nav:visited {
+    color: var(--color-fondo);
+}
+
+/* Hover */
+a.nav:hover {
+    color: var(--color-acento);
+}
+
+/* Active */
+a.nav:active {
+    color: var(--color-acento);
+}
+
+
+/* ---- Sección Bienvenida ---- */
+#bienvenida {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 1px;
+    background-image: url('../img/bienvenida.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bienvenida h1 {
+    background-color: #010b0fb7;
+    color: var(--color-fondo);
+    margin-top: 200px;
+    padding: 28px;
+}
+
+/* ---- Sección Novedades ---- */
+#novedades {
+    
+}
+
+/* ---- Footer ---- */
+footer {
+    background-color: #716A5C;
+    padding: 32px;
+}
